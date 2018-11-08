@@ -23,6 +23,8 @@ class App extends Component {
     this.setState({todos: newTodoList});
   };
 
+  //edit to check committed changes.
+
   handleChange = event => {
     this.setState({ newTodo: event.target.value });
   };
